@@ -13,4 +13,9 @@
 min-height: 230px;
 }
 
+.home-carousel a {
+	color: #fff;
+	text-decoration: underline;
+}
+
 

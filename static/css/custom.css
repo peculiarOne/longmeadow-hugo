@@ -1,0 +1,16 @@
+.bar.background-image-fixed-2 {
+	  background: url('../img/fixed-background.jpg') center top no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+	  }
+
+.box-image-text .image {
+	min-height: 200px;
+	max-height: 200px;
+}
+ 
+.box-simple {
+min-height: 230px;
+}
+
+

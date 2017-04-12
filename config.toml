@@ -56,22 +56,22 @@ paginate = 10
 [Permalinks]
     audio = "/blog/:year/:month/:day/:filename/"
 
-[[params.menu]]
+[[menu.main]]
     name = "Home"
     url  = "/"
     weight = 1
 
-[[params.menu]]
+[[menu.main]]
     name = "Audio"
     url  = "/audio/"
     weight = 2
 
-[[params.menu]]
+[[menu.main]]
    name = "What's On"
     url  = "/activities/"
     weight = 2
 
-[[params.menu]]
+[[menu.main]]
     name = "Contact"
     url  = "/contact/"
     weight = 4

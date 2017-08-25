@@ -20,8 +20,10 @@
 	  <div class="row">
 	    <!-- *** LEFT COLUMN *** -->
 	    <div class="col-md-12">
+        <div class="heading">
 	      <h2>Youth</h2>
-	      <div class="owl-carousel testimonials show same-height-row">
+      </div>
+	      <div class="activities owl-carousel">
 		{{ .Content }}
 		{{ range where .Site.Pages "Type" "youth" }}
 
@@ -29,9 +31,10 @@
 
 		{{ end }}
 	      </div>
-
-	      <h2>Weekly</h2>
-	      <div class="owl-carousel testimonials same-height-row">
+        <div class="heading">
+	         <h2>Weekly</h2>
+         </div>
+	      <div class="activities owl-carousel">
 		{{ .Content }}
 		{{ range where .Site.Pages "Type" "weekly" }}
 
@@ -40,11 +43,10 @@
 		{{ end }}
 	      </div>
 
-	      <section class="bar background-pentagon no-mb">
-		<div class="heading">
-		  <h2>Monthly</h2>
-		</div>
-	      <div class="owl-carousel homepage same-height-row">
+        <div class="heading">
+		        <h2>Monthly</h2>
+		      </div>
+	      <div class="activities owl-carousel">
 		{{ .Content }}
 		{{ range where .Site.Pages "Type" "monthly" }}
 
@@ -52,10 +54,11 @@
 
 		{{ end }}
 	      </div>
-	      </section>
 
-	      <h2>Other</h2>
-	      <div class="owl-carousel testimonials same-height-row">
+        <div class="heading">
+	         <h2>Other</h2>
+         </div>
+	      <div class="activities owl-carousel">
 		{{ .Content }}
 		{{ range where .Site.Pages "Type" "other" }}
 

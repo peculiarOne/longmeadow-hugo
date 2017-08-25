@@ -8,7 +8,7 @@
 	min-height: 200px;
 	max-height: 200px;
 }
- 
+
 .box-simple {
 min-height: 230px;
 }
@@ -18,22 +18,11 @@ min-height: 230px;
 	text-decoration: underline;
 }
 
+.activities .item {
+	text-align: : left;
+}
+
 .activities {
   padding: 0;
   margin-bottom: 40px;
-}
-
-.activities .item {
-  list-style-type: none;
-  text-align: center;
-  margin: 0 20px;
-  position: relative;
-  float: left;
-}
-
-.activities .item:before,
-.activities .item:after {
-  clear: both;
-  content: " ";
-  display: table;
 }

@@ -19,10 +19,23 @@ min-height: 230px;
 }
 
 .activities .item {
-	text-align: : left;
+	text-align: left;
+}
+
+.activities .item p {
+	/* font-size: 120%; */
+	font-size: 18px;
+	font-weight: 300;
 }
 
 .activities {
   padding: 0;
   margin-bottom: 40px;
+}
+
+.activities .item img {
+	float: left;
+	max-width: 150px;
+	margin-right: 10px;
+
 }

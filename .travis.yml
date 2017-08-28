@@ -1,5 +1,8 @@
 language: go
 
+addons:
+  ssh_known_hosts: home199125616.1and1-data.host
+
 go:
   - master
 

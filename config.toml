@@ -1,4 +1,5 @@
-baseurl = "http://longmeadow-church.org.uk/beta/"
+#baseurl = "http://longmeadow-church.org.uk/beta/"
+baseurl = "http://localhost/"
 title = "Longmeadow Evangelical Church"
 theme = "hugo-universal-theme"
 languageCode = "en-gb"

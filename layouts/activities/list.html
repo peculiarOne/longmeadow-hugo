@@ -7,104 +7,78 @@
 
     <div id="all">
 
-        <header>
+      <header>
 
-          {{ partial "nav.html" . }}
+	{{ partial "nav.html" . }}
 
-        </header>
+      </header>
 
-        {{ partial "breadcrumbs.html" . }}
+      {{ partial "breadcrumbs.html" . }}
 
-        <div id="content">
-            <div class="container">
-                <div class="row">
-                    <!-- *** LEFT COLUMN *** -->
+      <div id="content">
+	<div class="container">
+	  <div class="row">
+	    <!-- *** LEFT COLUMN *** -->
+	    <div class="col-md-12">
+        <div class="heading">
+	      <h2>Youth</h2>
+      </div>
+	      <div class="activities owl-carousel">
+		{{ .Content }}
+		{{ range where .Site.Pages "Type" "youth" }}
 
-                    <div class="col-md-9" id="blog-listing-medium">
+		{{ partial "activity.html" . }}
 
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "activities") }}
-                        {{ range $paginator.Pages }}
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="{{ .Permalink }}">
-                                          {{ if .Params.banner }}
-                                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
-                                          {{ else }}
-                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
-                                          {{ end }}
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          {{ if isset .Params "author" }}
-                                          By <a href="#">{{ .Params.author }}</a>
-                                          {{ end }}
-                                          {{ if isset .Params "categories" }}
-                                          {{ if gt (len .Params.categories) 0 }}
-                                          in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
-                                          {{ end }}
-                                          {{ end }}
+		{{ end }}
+	      </div>
+        <div class="heading">
+	         <h2>Weekly</h2>
+         </div>
+	      <div class="activities owl-carousel">
+		{{ .Content }}
+		{{ range where .Site.Pages "Type" "weekly" }}
 
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        {{ end }}
+		{{ partial "activity.html" . }}
 
-                        <ul class="pager">
-                            {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; Newer</a></li>
-                            {{ else }}
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            {{ end }}
+		{{ end }}
+	      </div>
 
-                            {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">Older &rarr;</a></li>
-                            {{ else }}
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                    <!-- /.col-md-9 -->
+        <div class="heading">
+		        <h2>Monthly</h2>
+		      </div>
+	      <div class="activities owl-carousel">
+		{{ .Content }}
+		{{ range where .Site.Pages "Type" "monthly" }}
 
-                    <!-- *** LEFT COLUMN END *** -->
+		{{ partial "activity.html" . }}
 
-                    <!-- *** RIGHT COLUMN ***
-       _________________________________________________________ -->
+		{{ end }}
+	      </div>
 
-                    <div class="col-md-3">
+        <div class="heading">
+	         <h2>Other</h2>
+         </div>
+	      <div class="activities owl-carousel">
+		{{ .Content }}
+		{{ range where .Site.Pages "Type" "other" }}
 
-                        <!-- *** MENUS AND WIDGETS *** -->
+		{{ partial "activity.html" . }}
 
-                        {{ partial "sidebar.html" . }}
+		{{ end }}
+	      </div>
+	    </div>
+	    <!-- /.col-md-9 -->
 
-                        <!-- *** MENUS AND FILTERS END *** -->
+	    <!-- *** LEFT COLUMN END *** -->
 
-                    </div>
-                    <!-- /.col-md-3 -->
+	  </div>
+	  <!-- /.row -->
+	</div>
+	<!-- /.container -->
+      </div>
+      <!-- /#content -->
 
-                    <!-- *** RIGHT COLUMN END *** -->
-
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#content -->
-
-        {{ partial "footer.html" . }}
+      {{ partial "footer.html" . }}
 
     </div>
     <!-- /#all -->

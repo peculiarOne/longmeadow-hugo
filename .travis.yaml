@@ -1,0 +1,16 @@
+language: go
+
+go:
+  - master
+
+install:
+  - go get github.com/spf13/hugo
+
+script:
+  - hugo
+
+after_success:
+  "rsync -r --delete-after --quiet public/ $RSYNC_USER@home199125616.1and1-data.host:/beta/"
+notifications:
+  email:
+    on_failure: always

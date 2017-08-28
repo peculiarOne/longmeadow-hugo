@@ -16,7 +16,7 @@ script:
   - hugo
 
 after_success:
-  "sshpass -p $RSYNC_PASSWORD lftp -u $RSYNC_USER -e 'mirror --reverse ${TRAVIS_BUILD_DIR}/public/ /beta' sftp://home199125616.1and1-data.host
+  "sshpass -p $RSYNC_PASSWORD lftp -u $RSYNC_USER -e 'mirror --reverse ${TRAVIS_BUILD_DIR}/public/ /beta' sftp://home199125616.1and1-data.host"
 notifications:
   email:
     on_failure: always

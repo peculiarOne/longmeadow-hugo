@@ -2,7 +2,9 @@ language: go
 
 addons:
   ssh_known_hosts: home199125616.1and1-data.host
-
+  apt:
+    packages:
+      - sshpass
 go:
   - master
 
@@ -13,7 +15,7 @@ script:
   - hugo
 
 after_success:
-  "rsync -r --delete-after --quiet public/ $RSYNC_USER@home199125616.1and1-data.host:/beta/"
+  "sshpass -p $RSYNC_PASSWORD rsync -r --delete-after --quiet public/ $RSYNC_USER@home199125616.1and1-data.host:/beta/"
 notifications:
   email:
     on_failure: always

@@ -15,7 +15,7 @@ script:
   - hugo
 
 after_success:
-  "sshpass -p $RSYNC_PASSWORD rsync -r --delete-after --quiet public/ $RSYNC_USER@home199125616.1and1-data.host:/beta/"
+  "sshpass -p $RSYNC_PASSWORD rsync -r --delete-after --quiet ${TRAVIS_BUILD_DIR}/public/ $RSYNC_USER@home199125616.1and1-data.host:/beta/"
 notifications:
   email:
     on_failure: always

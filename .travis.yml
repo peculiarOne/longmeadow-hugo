@@ -15,7 +15,7 @@ script:
   - hugo
 
 after_success:
-  "lftp -u ${RSYNC_USER},${RSYNC_PASSWORD} -e 'mirror --reverse public/ /beta' sftp://home199125616.1and1-data.host"
+  "lftp -u ${FTP_USER},${FTP_PASSWORD} -e 'mirror --reverse public/ /beta' sftp://home199125616.1and1-data.host"
 notifications:
   email:
     on_failure: always

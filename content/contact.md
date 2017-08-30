@@ -3,8 +3,6 @@ title = "Contact"
 id = "contact"
 +++
 
-# We are here to help you
+# We'd love to hear from you
 
-Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
-
-Please feel free to contact us, our customer service center is working for you 24/7.
+If you would like to know more about who we are and what we do, or have questions about God, the Bible or Christianity then you are always welcome to join us on a Sunday morning. Alternatively you can also get in touch using the form below or the phone number listed on this page.

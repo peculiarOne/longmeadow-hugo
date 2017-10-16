@@ -16,7 +16,7 @@ paginate = 10
     author = "DevCows"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyDyFmf1O2zsGNe_Tjt_5GmfgM32D8SNalA"
+    googleMapsApiKey = "AIzaSyCMDFVgzEI9GHhQyWlgypUtgoNOZ3uwf3I"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"

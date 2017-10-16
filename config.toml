@@ -50,9 +50,13 @@ paginate = 10
         <br>
         <br>+44 (0)1438 369257 (Church office - answer-phone only)
       </p>
+      <a href="https://www.facebook.com/longmeadowchurch/" aria-label="Go to our Facebook page">
+        <i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i>
+      </a>`
       """
     latitude = "51.884253"
     longitude = "-0.171793"
+    direction = "Longmeadow Evangelical Church, Oaks Cross, Stevenage"
 
 [Permalinks]
     audio = "/blog/:year/:month/:day/:filename/"
@@ -76,6 +80,15 @@ paginate = 10
     name = "Contact"
     url  = "/contact/"
     weight = 4
+
+[params.topbar]
+    enable = true
+
+[[menu.topbar]]
+    name = "FB"
+    url  = "https://www.facebook.com/longmeadowchurch/"
+    pre = "<i class='fa fa-2x fa-facebook'></i>"
+    weight = 5
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]

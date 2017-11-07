@@ -6,10 +6,10 @@
 					<img src="{{ .Site.BaseURL}}{{ .Params.thumbnail }}" class="img-thumbnail" alt="">
 					{{ end }}
 			{{ if .Params.time }}
-			  <h4> <b>Time :</b> <i>{{.Params.Time}}</i></h4>
+			  <h5> <b>Time :</b> <i>{{.Params.Time}}</i></h5>
 			 {{ end }}
 			  {{ if .Params.location }}
-			  <h4> <b>Location :</b> <i>{{.Params.Location}}</i></h4>
+			  <h5> <b>Location :</b> <i>{{.Params.Location}}</i></h5>
 			  {{ end }}
 		      <p>{{ .Summary }}</p>
 		  </div>

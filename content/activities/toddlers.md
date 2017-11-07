@@ -1,10 +1,10 @@
 +++
 title = "Home Groups"
 type = "weekly"
+time = "Tuesdays/Wednesdays at 7:30pm or 8pm"
+location ="A home near you"
 thumbnail = ""
 +++
-<b>Where?</b> At a house near you.<br/>
-<b>When?</b> Tuesdays or Wednesdays 7:30pm / 8:00pm. <br/>
-<b>What?</b> <br/>
-Small groups that meet together in one anothers houses to read the bible, study, and pray together as brothers and sisters in Christ. <br/>
-<i>To get involved please talk to an elder.</i> <br/>
+
+Small groups that meet together in one anothers houses to read the bible, study, and pray together as brothers and sisters in Christ. 
+To get involved please talk to an elder.

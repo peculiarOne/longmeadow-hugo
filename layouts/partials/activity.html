@@ -5,8 +5,12 @@
 					{{ if .Params.thumbnail }}
 					<img src="{{ .Site.BaseURL}}{{ .Params.thumbnail }}" class="img-thumbnail" alt="">
 					{{ end }}
+			{{ if .Params.time }}
 			  <p> Time : {{.Time}}</p>
+			 {{ end }}
+			  {{ if .Params.location }}
 			  <p> Location : {{.Location}}</p>
-		      {{ .Summary }}</p>
+			  {{ end }}
+		      <p>{{ .Summary }}</p>
 		  </div>
 		</div>

@@ -5,6 +5,8 @@
 					{{ if .Params.thumbnail }}
 					<img src="{{ .Site.BaseURL}}{{ .Params.thumbnail }}" class="img-thumbnail" alt="">
 					{{ end }}
+			  <p> Time : {{.Time}}</p>
+			  <p> Location : {{.Location}}</p>
 		      {{ .Summary }}</p>
 		  </div>
 		</div>

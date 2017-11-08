@@ -20,7 +20,9 @@ min-height: 230px;
 
 .activities .item {
 	text-align: left;
-}
+	outline-color: #3390FF;
+	outline-style: double;
+	}
 
 .activities .item p {
 	/* font-size: 120%; */
@@ -28,7 +30,7 @@ min-height: 230px;
 	font-weight: 300;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	padding-top: -5px;
+
 }
 
 .activities .intro {
@@ -39,8 +41,7 @@ min-height: 230px;
 
 .activities .item h4 {
 	/* font-size: 120%; */
-	margin-top: 5px;
-	margin-bottom: 5px;
+	padding-right: 20px;
 }
 
 .activities {

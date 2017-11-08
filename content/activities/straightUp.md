@@ -2,6 +2,7 @@
 title = "Straight Up"
 time = "8pm on Friday"
 location = "Longmeadow Evangelical Church"
+link = "img/activities/StraightUp.doc"
 type = "youth"
 +++
 

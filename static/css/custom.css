@@ -20,27 +20,14 @@ min-height: 230px;
 
 .activities .item {
 	text-align: left;
-
-	}
+}
 
 .activities .item p {
 	/* font-size: 120%; */
 	font-size: 17px;
 	font-weight: 300;
 	padding-right: 20px;
-	padding-bottom: 0px;
-
-}
-
-.activities .intro {
-	padding-right: 0px;
-	padding-bottom: 0px;
-	
-}
-
-.activities .item h4 {
-	/* font-size: 120%; */
-	padding-right: 20px;
+	padding-bottom: 20px;
 }
 
 .activities {
@@ -53,4 +40,3 @@ min-height: 230px;
 	margin-right: 10px;
 
 }
-

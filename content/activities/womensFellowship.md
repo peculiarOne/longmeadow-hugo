@@ -1,9 +1,8 @@
 +++
 title = "Women's Fellowship"
 type = "monthly"
-time = "Alternate Wednesdays at 9:45am"
-location = "Longmeadow Evangelical Church"
-thumbnail = "img/activities/womens-bible-study1.png"
+thumbnail = ""
 +++
-Meet fellow Christian women to pray and read the bible together. 
+Ladies bible study and fellowship group.
+Meets on alternate Wednesdays at 9:45am.
 

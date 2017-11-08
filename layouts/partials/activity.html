@@ -8,11 +8,17 @@
 			 {{ if .Params.location }}
 			  <h4> <b>Location :</b> <i>{{.Params.Location}}</i></h4>
 			 {{ end }}
-					<p class="intro">
+			  
+					
 					{{ if .Params.thumbnail }}
+					<p class="intro">
 					<img src="{{ .Site.BaseURL}}{{ .Params.thumbnail }}" class="img-thumbnail" alt="">
 					{{ end }}
 
 		      <p>{{ .Summary }}</p>
+			  
+		   {{ if .Params.link }}
+	            <a href="{{.Site.BaseURL}}{{.Params.link}}" download=".Title">
+		   {{end}}
 		  </div>
 		</div>

@@ -28,6 +28,7 @@ min-height: 230px;
 	font-weight: 300;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	margin-top: 5px;
 }
 
 .activities {
@@ -40,9 +41,4 @@ min-height: 230px;
 	margin-right: 10px;
 
 }
-p {
-    margin: 0    0      0       0;	
-}
-h4 {
-	margin-bottom:0em
-}
+

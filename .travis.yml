@@ -16,7 +16,7 @@ script:
 
 after_success:
   if ([ "$TRAVIS_PULL_REQUEST" == "false"] && [ "$TRAVIS_BRANCH" == "master" ]); then
-    "lftp -u ${FTP_USER},${FTP_PASSWORD} -e 'mirror --reverse public/ /;exit' sftp://home199125616.1and1-data.host"
+    lftp -u ${FTP_USER},${FTP_PASSWORD} -e 'mirror --reverse public/ /;exit' sftp://home199125616.1and1-data.host
   else
     echo "Pull request or branch other than master. Not deploying"
   fi

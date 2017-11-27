@@ -1,6 +1,14 @@
 		<div class="item">
 		  <div class="testimonial same-height-always">
 		      <h2>{{ .Title }}</h2>
+			   			 
+			  {{ if .Params.Time }}
+			  <h4> <b>Time :</b> <i>{{.Params.Time}}</i></h4>
+ 			 {{ end }}
+ 			  
+ 			 {{ if .Params.Location }}
+			  <h4> <b>Location :</b> <i>{{.Params.Location}}</i></h4>
+ 			 {{ end }}
 					<p class="intro">
 					{{ if .Params.thumbnail }}
 					<img src="{{ .Site.BaseURL}}{{ .Params.thumbnail }}" class="img-thumbnail" alt="">

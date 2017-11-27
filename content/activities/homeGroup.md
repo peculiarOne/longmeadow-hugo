@@ -2,5 +2,7 @@
 title = "Toddler Group"
 type = "weekly"
 thumbnail = "img/activities/toddlersPaints.jpg"
+time = "Tuesday at 9:30am to 11:00am"
+location = "Longmeadow Evangelical Church"
 +++
-Parent and toddler group meeting from 9:30 to 11:00am every Tuesday.
+A group for parents and toddlers to meet together.

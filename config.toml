@@ -36,7 +36,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "info@longmeadow-church.org.uk"
 
-    about_us = "<p>Longmeadow Church is a <a href=\"http://www.charitycommission.gov.uk/index.asp\">Registered Charity</a> 1134018<br><a href=\"http://longmeadow-church.org.uk/files/uploads/LEC Church Constitution.pdf\">Church Constitution</a> | <a href=\"http://longmeadow-church.org.uk/files/uploads/LEC Practices Booklet.pdf\">Church Practices</a> | <a href=\"http://longmeadow-church.org.uk/files/uploads/Gift_Aid_Declaration_2015.pdf\">Gift Aid Declaration</a></p>"
+    about_us = "<p>Longmeadow Church is a <a href=\"http://www.charitycommission.gov.uk/index.asp\">Registered Charity</a> 1134018<br><a href=\"http://longmeadow-church.org.uk/files/uploads/LEC Church Constitution.pdf\">Church Constitution</a> | <a href=\"http://longmeadow-church.org.uk/files/uploads/LEC Practices Booklet.pdf\">Church Practices</a> | <a href=\"http://longmeadow-church.org.uk/files/uploads/Gift_Aid_Declaration_201803.pdf\">Gift Aid Declaration</a></p>"
     copyright = ""
 
     # Format dates with Go's time formatting

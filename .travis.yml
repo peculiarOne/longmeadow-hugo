@@ -13,7 +13,11 @@ go:
   - master
 
 install:
-  - go get -u github.com/gohugoio/hugo
+  - go get github.com/magefile/mage
+  - go get -d github.com/gohugoio/hugo
+  - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
+  - mage -v vendor
+  - mage install
 
 script:
   - hugo -b http://longmeadow-church.org.uk/ --canonifyURLs

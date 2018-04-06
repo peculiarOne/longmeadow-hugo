@@ -16,6 +16,7 @@ install:
   - go get github.com/magefile/mage
   - go get -d github.com/gohugoio/hugo
   - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
+  - git checkout v0.38
   - mage -v vendor
   - mage install
 

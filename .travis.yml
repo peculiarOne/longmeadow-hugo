@@ -13,7 +13,7 @@ go:
   - master
 
 install:
-  - go get github.com/gohugoio/hugo
+  - go get -u github.com/gohugoio/hugo
 
 script:
   - hugo -b http://longmeadow-church.org.uk/ --canonifyURLs

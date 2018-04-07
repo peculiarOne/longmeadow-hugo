@@ -1,4 +1,4 @@
-language: go
+language: python
 
 branches:
   only:
@@ -13,12 +13,9 @@ go:
   - master
 
 install:
-  - go get github.com/magefile/mage
-  - go get -d github.com/gohugoio/hugo
-  - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
-  - git checkout v0.38
-  - mage -v vendor
-  - mage install
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
+  - pip install Pygments
 
 script:
   - hugo -b http://longmeadow-church.org.uk/ --canonifyURLs

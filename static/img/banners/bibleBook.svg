@@ -14,7 +14,7 @@
    viewBox="0 0 79.374998 79.375002"
    version="1.1"
    id="svg4491"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
    sodipodi:docname="bibleBook.svg"
    inkscape:export-filename="/home/wayne/Code/longmeadow-hugo/static/img/banners/questions.png"
    inkscape:export-xdpi="90"
@@ -29,16 +29,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.52447678"
-     inkscape:cx="-957.19363"
-     inkscape:cy="22.447835"
+     inkscape:cx="-1136.7097"
+     inkscape:cy="-59.276993"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1112"
-     inkscape:window-height="792"
+     inkscape:window-width="1622"
+     inkscape:window-height="914"
      inkscape:window-x="63"
-     inkscape:window-y="195"
+     inkscape:window-y="73"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4488">
@@ -378,8 +378,8 @@
        id="rect4493-7-3"
        width="79.375"
        height="58.208332"
-       x="-390.29483"
-       y="119.58134"
+       x="-368.09857"
+       y="210.89059"
        inkscape:export-xdpi="83.199997"
        inkscape:export-ydpi="83.199997" />
     <flowRoot
@@ -413,5 +413,25 @@
            x="-1048.0378"
            y="-25.452795"
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:53.33333588px;font-family:Raleway;-inkscape-font-specification:'Raleway, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1" /></flowRegion><flowPara
-         id="flowPara902">LUKE</flowPara></flowRoot>  </g>
+         id="flowPara902">LUKE</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot896-3"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:53.33333588px;line-height:25px;font-family:Raleway;-inkscape-font-specification:'Raleway, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,-99.47869,224.08383)"
+       inkscape:export-xdpi="83.199997"
+       inkscape:export-ydpi="83.199997"><flowRegion
+         id="flowRegion898-6"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:53.33333588px;font-family:Raleway;-inkscape-font-specification:'Raleway, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1"><rect
+           id="rect900-7"
+           width="365.45279"
+           height="117.62663"
+           x="-1048.0378"
+           y="-25.452795"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:53.33333588px;font-family:Raleway;-inkscape-font-specification:'Raleway, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1" /></flowRegion><flowPara
+         style="font-size:41.33333385px;text-align:center;text-anchor:middle"
+         id="flowPara905">1 </flowPara><flowPara
+         style="font-size:41.33333385px;text-align:center;text-anchor:middle"
+         id="flowPara909" /><flowPara
+         style="font-size:41.33333385px;text-align:center;text-anchor:middle"
+         id="flowPara4627">CORINTHIANS</flowPara></flowRoot>  </g>
 </svg>

@@ -1,7 +1,7 @@
 +++
 title = "God of Worship"
 date = "2018-08-12"
-tags = ["Romans"]
+tags = ["Romans", "Theme"]
 categories = ["morning"]
 banner = "img/banners/romans.png"
 author = "Wayne Campbell"

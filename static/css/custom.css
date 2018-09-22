@@ -40,3 +40,7 @@ min-height: 230px;
 	margin-right: 10px;
 
 }
+
+.img-thumbnail {
+	border-color: #38a7bb;
+}

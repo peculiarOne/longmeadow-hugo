@@ -14,11 +14,15 @@
 		{{ end }}
 				<div class="col-md-4">
                     <div class="box-simple">
+                        {{ if isset $element "icon" }}
                         <div class="icon">
                             <i class="{{ .icon }}"></i>
                         </div>
                         <h3>{{ $element.name }}</h3>
                         <p>{{ $element.description | markdownify }}</p>
+                        {{ else }}
+                        <img class="img-responsive img-thumbnail" src="{{ .image }}" alt="">
+                        {{ end }}
                     </div>
                 </div>
 		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.features) 1 )) }}

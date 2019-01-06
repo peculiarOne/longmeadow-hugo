@@ -1,5 +1,5 @@
 +++
-title = "Proverbs: Consquences"
+title = "Proverbs: Consequences"
 date = "2019-01-06"
 tags = ["Proverbs"]
 categories = ["evening"]

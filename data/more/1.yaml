@@ -1,4 +1,4 @@
 name: "customer-1"
-link_url: "activities"
-link_text: "Activities"
+link_url: "guest-services"
+link_text: "Guest Services"
 weight: 1

@@ -1,4 +1,4 @@
-+++
+nte+++
 title = "CAP Money Course"
 type = "other"
 thumbnail = "img/activities/cap.png"

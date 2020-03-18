@@ -37,12 +37,12 @@ paginate = 10
     email = "info@longmeadow-church.org.uk"
 
     about_us = """<p>
-        Longmeadow Church is a <a href=\"http://www.charitycommission.gov.uk/index.asp\">Registered Charity</a> 1134018<br>
-        <a href=\"http://longmeadow-church.org.uk/files/uploads/LEC Church Constitution.pdf\">Church Constitution</a> | 
-        <a href=\"http://longmeadow-church.org.uk/files/uploads/LEC Practices Booklet.pdf\">Church Practices</a> | 
-        <a href=\"http://longmeadow-church.org.uk/files/uploads/Gift_Aid_Declaration.pdf\">Gift Aid Declaration</a> | 
-        <a href=\"http://longmeadow-church.org.uk/files/uploads/ExpenseClaimForm.pdf\">Expense Claim Form</a> | 
-        <a href=\"http://longmeadow-church.org.uk/files/uploads/LEC Privacy Policy.pdf\">Privacy Policy</p>"""
+        Longmeadow Church is a <a href=\"https://www.charitycommission.gov.uk/index.asp\">Registered Charity</a> 1134018<br>
+        <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Church Constitution.pdf\">Church Constitution</a> | 
+        <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Practices Booklet.pdf\">Church Practices</a> | 
+        <a href=\"https://longmeadow-church.org.uk/files/uploads/Gift_Aid_Declaration.pdf\">Gift Aid Declaration</a> | 
+        <a href=\"https://longmeadow-church.org.uk/files/uploads/ExpenseClaimForm.pdf\">Expense Claim Form</a> | 
+        <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Privacy Policy.pdf\">Privacy Policy</p>"""
     copyright = ""
 
     # Format dates with Go's time formatting
@@ -63,6 +63,7 @@ paginate = 10
     latitude = "51.884253"
     longitude = "-0.171793"
     direction = "Longmeadow Evangelical Church, Oaks Cross, Stevenage"
+    mainSections = ["audio"]
 
 [Permalinks]
     audio = "/blog/:year/:month/:day/:filename/"
@@ -87,14 +88,25 @@ paginate = 10
     url  = "/contact/"
     weight = 4
 
-[params.topbar]
-    enable = true
+[params.urgent]
+    enable = true   
+    text = """<a href="./coronavirus">Following current guidelines relating to Coronavirus all events are suspended</a>"""
 
-[[menu.topbar]]
-    name = "FB"
-    url  = "https://www.facebook.com/longmeadowchurch/"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-    weight = 5
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = false
+    text = """<p class="">Due to current advice relating to Coronavirus all church events are suspended</p>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      """
+
+# [[menu.topbar]]
+#     name = "FB"
+#     url  = "https://www.facebook.com/longmeadowchurch/"
+#     pre = "<i class='fa fa-2x fa-facebook'></i>"
+#     weight = 5
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]

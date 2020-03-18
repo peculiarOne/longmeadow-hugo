@@ -22,7 +22,7 @@ min-height: 230px;
 	text-align: left;
 }
 
-.activities .item p {
+#content .activities .item .testimonial p {
 	/* font-size: 120%; */
 	font-size: 17px;
 	font-weight: 300;
@@ -43,4 +43,24 @@ min-height: 230px;
 
 .img-thumbnail {
 	border-color: #38a7bb;
+}
+
+#urgent {
+	background-color: gold;
+	color:  #555555 !important;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+}
+
+#urgent a {
+	color:  #555555 !important;
+}
+
+#content .container .col-md-12 p {
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 1.4;
+	padding-bottom: 40px;
 }

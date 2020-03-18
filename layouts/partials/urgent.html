@@ -1,0 +1,12 @@
+
+{{ if .Site.Params.urgent.enable }}
+<div id="urgent">
+  <div class="container">
+    <div class="row">
+      <div class="center">
+        {{ .Site.Params.urgent.text | safeHTML }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -18,7 +18,7 @@ install:
   - pip install Pygments
 
 script:
-  - hugo -b https://longmeadow-church.org.uk/ --canonifyURLs
+  - hugo -b https://longmeadow-church.org.uk/
 
 after_success:
   "lftp -u ${FTP_USER},${FTP_PASSWORD} -e 'mirror --reverse public/ /;exit' sftp://home199125616.1and1-data.host"

@@ -21,7 +21,7 @@ script:
   - hugo -b https://longmeadow-church.org.uk/
 
 after_success:
-  "lftp -u ${FTP_USER},${FTP_PASSWORD} -e 'mirror --reverse --verbose public/ /;exit' sftp://home199125616.1and1-data.host"
+  "lftp -u ${FTP_USER},${FTP_PASSWORD} -e 'mirror --reverse --verbose --parallel=2 --ignore-time public/ /;exit' sftp://home199125616.1and1-data.host"
 notifications:
   email:
     on_failure: always

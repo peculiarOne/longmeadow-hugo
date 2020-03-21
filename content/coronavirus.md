@@ -26,4 +26,4 @@ The **Bible Project** are also providing great resources for the next few months
 
 {{< figure src="/img/online-resources/energize.jpg" height="350" >}}
 
-Also for parents, we currently use the **Urban Saints “Energise”** material for Adventurers and Ignite, and they are opening that up to all parents to use with their children. There are many different topics to explore, all with activities, crafts, games and so on to help illustrate the truths being explored. If you’d like access to that website, email Russell at russknell@gmail.com.
+Also for parents, we currently use the **Urban Saints “Energise”** material for Adventurers and Ignite, and they are opening that up to all parents to use with their children. There are many different topics to explore, all with activities, crafts, games and so on to help illustrate the truths being explored. If you’d like access to that website drop us a message using our [contact form](/contact).

@@ -42,7 +42,10 @@ paginate = 10
         <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Practices Booklet.pdf\">Church Practices</a> | 
         <a href=\"https://longmeadow-church.org.uk/files/uploads/Gift_Aid_Declaration.pdf\">Gift Aid Declaration</a> | 
         <a href=\"https://longmeadow-church.org.uk/files/uploads/ExpenseClaimForm.pdf\">Expense Claim Form</a> | 
-        <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Privacy Policy.pdf\">Privacy Policy</p>"""
+        <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Privacy Policy.pdf\">Privacy Policy</a>
+        <p></p>
+        <a href=\"https://www.give.net/20211629\" target=\"_blank\"><img src=\"/img/givenet.png\"></a>
+        """
     copyright = ""
 
     # Format dates with Go's time formatting

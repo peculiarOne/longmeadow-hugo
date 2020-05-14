@@ -10,7 +10,7 @@ Though we're still unable to meet in-person there are lots of opportunities duri
 
 {{<figure src="/img/streamed-preach.webp" class="img-responsive pull-right img-thumbnail">}}
 
-If video calling is a bit daunting, or if you'd just like to get a see what we're about videos of Sunday messages can be found on our [YouTube channel](https://www.youtube.com/channel/UCobm1YNFv1DNyUqFC4EFaSw), or here on the [Audio page](/audio).
+If video calling is a bit daunting, or if you'd just like to get a see what we're about, videos of Sunday messages can be found on our [YouTube channel](https://www.youtube.com/channel/UCobm1YNFv1DNyUqFC4EFaSw), or here on the [Audio page](/audio).
 
 ### Join In...
 

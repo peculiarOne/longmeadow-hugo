@@ -8,11 +8,14 @@ Though we're still unable to meet in-person there are lots of opportunities duri
 
 ### Take A Look...
 
+{{<figure src="/img/streamed-preach.webp" class="img-responsive pull-right img-thumbnail">}}
+
 If video calling is a bit daunting, or if you'd just like to get a see what we're about videos of Sunday messages can be found on our [YouTube channel](https://www.youtube.com/channel/UCobm1YNFv1DNyUqFC4EFaSw), or here on the [Audio page](/audio).
 
 ### Join In...
 
-A core part of church is community, and community continues whether or not we can meet in person. We're making use of Zoom and Jitsi to enable people to see and speak to each other in various sized meetings across the week.
+A core part of church is community, and community continues whether or not we can meet in person. We're making use of Zoom and Jitsi to enable people to see and speak to each other in various sized meetings across the week. 
+
 
 > **Sundays**  
 > *Morning:* Join us for Church Online with a live streamed meeting followed be separate kids time and sermon Q&A groups  

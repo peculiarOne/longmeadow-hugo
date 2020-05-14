@@ -93,7 +93,7 @@ paginate = 10
 
 [params.urgent]
     enable = true   
-    text = """<a href="/coronavirus">Following current guidelines relating to Coronavirus all events are suspended</a>"""
+    text = """<a href="/coronavirus">Our building may be closed but there's still lots going on, click to see what</a>"""
 
 
 # Enable or disable top bar with social icons

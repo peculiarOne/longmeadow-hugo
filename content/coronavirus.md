@@ -2,6 +2,10 @@
 title = "Coronavirus"
 +++
 
+## Update, June 19th
+
+From this coming Sunday we'll be live streaming morning our services on YouTube. Head over to [our channel](https://tinyurl.com/LongmeadowLive) at 10:30am each Sunday to join us.
+
 ## Update, May 11th
 
 Though we're still unable to meet in-person there are lots of opportunities during the week to see & speak to others, be taught from scripture, encourage each other and pray together. Here's a run-down of what's happening currently.

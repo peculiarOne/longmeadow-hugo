@@ -60,7 +60,10 @@ paginate = 10
         <br>+44 (0)1438 369257 (Church office - answer-phone only)
       </p>
       <a href="https://www.facebook.com/longmeadowchurch/" aria-label="Go to our Facebook page">
-        <i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
+        <i class="fab fa-2x fa-facebook" aria-hidden="true"></i>
+      </a>`
+      <a href="https://www.youtube.com/channel/UCobm1YNFv1DNyUqFC4EFaSw" aria-label="Go to our Youtube page">
+        <i class="fab fa-2x fa-youtube" aria-hidden="true"></i>
       </a>`
       """
     latitude = "51.884253"
@@ -98,18 +101,26 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = false
-    text = """<p class="">Due to current advice relating to Coronavirus all church events are suspended</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
+    enable = true
+    text = ""
 
-# [[menu.topbar]]
-#     name = "FB"
-#     url  = "https://www.facebook.com/longmeadowchurch/"
-#     pre = "<i class='fa fa-2x fa-facebook'></i>"
-#     weight = 5
+[[menu.topbar]]
+    name = "FB"
+    url  = "https://www.youtube.com/channel/UCobm1YNFv1DNyUqFC4EFaSw"
+    pre = "<i class='fab fa-2x fa-youtube'></i>"
+    weight = 5
+
+[[menu.topbar]]
+    name = "YT"
+    url  = "https://facebook.com/longmeadowchurch/"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
+    weight = 3
+
+[[menu.topbar]]
+    name = "CO"
+    url  = "/contact"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
+    weight = 3
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]

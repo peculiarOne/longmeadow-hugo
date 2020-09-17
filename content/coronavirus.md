@@ -2,6 +2,14 @@
 title = "Coronavirus"
 +++
 
+## Update, September 17th
+
+We are now meeting in person at the church building on Sunday afternoons at 4pm.
+
+The Sunday morning live streams are continuing and will still be considered our "main" weekly gatherings, but the afternoons will provide a chance for those who wish to gather in person to do so.
+
+We're following current government guidance which means social distancing will be observed and face coverings will need to be worn within the building. In order to meet safely there will be a limit on the number of people who can attend and we'll be running a pre-booking system. [Book into an afternoon service here](https://tinyurl.com/longmeadowbooking/).
+
 ## Update, June 19th
 
 From this coming Sunday we'll be live streaming morning our services on YouTube. Head over to [our channel](https://tinyurl.com/LongmeadowLive) at 10:30am each Sunday to join us.

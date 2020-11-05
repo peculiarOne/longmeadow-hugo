@@ -2,6 +2,12 @@
 title = "Coronavirus"
 +++
 
+## Update, November 5th
+
+With the nationwide four week lockdown coming into operation today we're forced to suspend our in person Sunday afternoon gatherings.
+
+We will continue to gather virtually on Sunday mornings, for prayer on Wednesday evenings, and as home groups during the week. If you would like to join any of these meetings then please [get in touch](/contact). You can also follow us on our [YouTube channel](https://tinyurl.com/LongmeadowLive).
+
 ## Update, September 17th
 
 We are now meeting in person at the church building on Sunday afternoons at 4pm.

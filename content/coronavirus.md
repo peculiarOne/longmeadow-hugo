@@ -2,6 +2,14 @@
 title = "Coronavirus"
 +++
 
+## Update, December 1st
+
+The nationwide lockdown is coming to an end on the 2nd December which allows us to restart Sunday afternoon gatherings.
+
+Social distancing and facemasks will still be required within the building, but under the new Tier 2 guidelines socialising in groups of up to 6 is allowed outside - so bring a warm coat and hang around for a chat! 🧥
+
+[Book into an afternoon service here](https://tinyurl.com/longmeadowbooking/).
+
 ## Update, November 5th
 
 With the nationwide four week lockdown coming into operation today we're forced to suspend our in person Sunday afternoon gatherings.

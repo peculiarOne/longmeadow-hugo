@@ -171,6 +171,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "Recent audio uploads"
     subtitle = ""

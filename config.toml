@@ -86,9 +86,14 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
+    name = "Video"
+    url = "https://video.longmeadow-church.org.uk/"
+    weight = 2
+
+[[menu.main]]
    name = "What's On"
     url  = "/activities/"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Contact"

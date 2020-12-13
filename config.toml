@@ -34,7 +34,8 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "info@longmeadow-church.org.uk"
+    formspree_action = "https://formspree.io/f/info@longmeadow-church.org.uk"
+    contact_form_ajax = false
 
     about_us = """<p>
         Longmeadow Church is a <a href=\"https://www.charitycommission.gov.uk/index.asp\">Registered Charity</a> 1134018<br>

@@ -2,6 +2,15 @@
 title = "Coronavirus"
 +++
 
+## Update, January 6th
+
+In-person Sunday afternoon services have now been put on hold.
+
+We are grateful that in the current national lockdown the government are still allowing churches to remain open for worship services.
+
+However we recognise that in Stevenage and the surrounding areas Covid-19 transmission rates are particularly high at present, and likely still on the increase.
+As a result we don't think it would be wise to hold physical services for the time being. We will review this situation regularly and seek to restart in-person services when Covid transmission rates fall.
+
 ## Update, December 1st
 
 The nationwide lockdown is coming to an end on the 2nd December which allows us to restart Sunday afternoon gatherings.

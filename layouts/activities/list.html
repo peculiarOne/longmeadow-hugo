@@ -83,9 +83,12 @@
 	        	<div class="heading">
 		      		<h2>Online</h2>
 	      		</div>
+				<p>Though in-person activities are still on hold at the moment, a number of our regular activities have now moved online
+					and are meeting virtually. If you'd like details on how to join any of these then drop us a message via our
+					<a href="/contact">contact page</a>.
+				</p>
 		      	<div class="activities owl-carousel">
 					{{ .Content }}
-					<p>{{ len $online_posts }} posts here</p>
 					{{ range $online_posts }}
 						{{ partial "online_activity.html" . }}
 					{{ end }}

@@ -1,6 +1,6 @@
 +++
 title = "CAP Money Course"
-draft = false
+draft = true
 type = "other"
 thumbnail = "img/activities/cap.png"
 +++

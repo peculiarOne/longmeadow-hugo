@@ -1,5 +1,5 @@
 +++
-title = "B Cubed Online"
+title = "B Cubed"
 draft = false
 type = "online"
 thumbnail = "img/activities/cap.png"

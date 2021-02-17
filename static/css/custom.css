@@ -34,11 +34,17 @@ min-height: 230px;
   margin-bottom: 10px;
 }
 
-.activities .item img {
+.activities .item .img-thumbnail {
 	float: left;
-	max-width: 150px;
+	max-width: 160px;
 	margin-right: 10px;
 
+}
+
+.activities .item img {
+		height: 95%;
+		width: 95%;
+		object-fit: contain;
 }
 
 .img-thumbnail {

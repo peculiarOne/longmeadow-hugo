@@ -142,7 +142,9 @@ function sliders () {
       navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
       autoPlay: false,
       margin: 10,
-      items: 3,
+      items: 2,
+      loop: true,
+      autoPlay: true,
       itemsDesktopSmall: [990, 3],
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]

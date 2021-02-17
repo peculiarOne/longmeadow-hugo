@@ -1,5 +1,6 @@
 +++
 title = "Crafternoon"
+draft = false
 type = "weekly"
 thumbnail = "img/activities/crafternoon.jpeg"
 +++

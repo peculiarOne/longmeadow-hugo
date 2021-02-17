@@ -24,54 +24,74 @@
 	    <div class="col-md-12">
 
 		    <p class="lead">Here's a brief introduction to the various regular activities that go on at or around Longmeadow. 
-		    If you'd like to know about any of these please <a href="../contact/">get in touch</a>.</p>
-        <div class="heading">
-	      <h2>Youth</h2>
-      </div>
-	      <div class="activities owl-carousel">
-		{{ .Content }}
-		{{ range where .Site.Pages "Type" "youth" }}
+			If you'd like to know about any of these please <a href="../contact/">get in touch</a>.</p>
+			
+			{{ $youth_posts := (where .Site.Pages "Type" "youth") }}
+			{{ if gt (len $youth_posts) 0}}
+	        	<div class="heading">
+		      		<h2>Youth</h2>
+	      		</div>
+		      	<div class="activities owl-carousel">
+					{{ .Content }}
+					{{ range $youth_posts }}
+						{{ partial "activity.html" . }}
+					{{ end }}
+			  	</div>
+			{{ end }}
 
-		{{ partial "activity.html" . }}
+			{{ $weekly_posts := (where .Site.Pages "Type" "weekly") }}
+			{{ if gt (len $weekly_posts) 0}}
+	        	<div class="heading">
+		      		<h2>Weekly</h2>
+	      		</div>
+		      	<div class="activities owl-carousel">
+					{{ .Content }}
+					{{ range $weekly_posts }}
+						{{ partial "activity.html" . }}
+					{{ end }}
+			  	</div>
+			{{ end }}
 
-		{{ end }}
-	      </div>
-        <div class="heading">
-	         <h2>Weekly</h2>
-         </div>
-	      <div class="activities owl-carousel">
-		{{ .Content }}
-		{{ range where .Site.Pages "Type" "weekly" }}
+			{{ $monthly_posts := (where .Site.Pages "Type" "monthly") }}
+			{{ if gt (len $monthly_posts) 0}}
+	        	<div class="heading">
+		      		<h2>Fortnightly / Monthly</h2>
+	      		</div>
+		      	<div class="activities owl-carousel">
+					{{ .Content }}
+					{{ range $monthly_posts }}
+						{{ partial "activity.html" . }}
+					{{ end }}
+			  	</div>
+			{{ end }}
 
-		{{ partial "activity.html" . }}
+			{{ $other_posts := (where .Site.Pages "Type" "other") }}
+			{{ if gt (len $other_posts) 0}}
+	        	<div class="heading">
+		      		<h2>Other</h2>
+	      		</div>
+		      	<div class="activities owl-carousel">
+					{{ .Content }}
+					{{ range $other_posts }}
+						{{ partial "activity.html" . }}
+					{{ end }}
+			  	</div>
+			{{ end }}
 
-		{{ end }}
-	      </div>
+			{{ $online_posts := (where .Site.Pages "Type" "online") }}
+			{{ if gt (len $online_posts) 0}}
+	        	<div class="heading">
+		      		<h2>Online</h2>
+	      		</div>
+		      	<div class="activities owl-carousel">
+					{{ .Content }}
+					<p>{{ len $online_posts }} posts here</p>
+					{{ range $online_posts }}
+						{{ partial "online_activity.html" . }}
+					{{ end }}
+			  	</div>
+			{{ end }}
 
-        <div class="heading">
-		        <h2>Fortnightly / Monthly</h2>
-		      </div>
-	      <div class="activities owl-carousel">
-		{{ .Content }}
-		{{ range where .Site.Pages "Type" "monthly" }}
-
-		{{ partial "activity.html" . }}
-
-		{{ end }}
-	      </div>
-
-        <div class="heading">
-	         <h2>Other</h2>
-         </div>
-	      <div class="activities owl-carousel">
-		{{ .Content }}
-		{{ range where .Site.Pages "Type" "other" }}
-
-		{{ partial "activity.html" . }}
-
-		{{ end }}
-	      </div>
-	    </div>
 	    <!-- /.col-md-9 -->
 
 	    <!-- *** LEFT COLUMN END *** -->

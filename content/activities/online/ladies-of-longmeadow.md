@@ -4,4 +4,4 @@ draft = false
 type = "online"
 +++
 
-![Ladies of Longmeadow](img/activities/ladies-of-longmeadow-online.png)
+![Ladies of Longmeadow](/img/activities/ladies-of-longmeadow-online.png)

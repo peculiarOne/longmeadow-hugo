@@ -2,6 +2,18 @@
 title = "Coronavirus"
 +++
 
+## Update, April 2nd
+
+Starting Easter Sunday in-person morning services will be starting up again.
+
+{{<figure src="/img/carousel/sunday-mornings-booking.png" class="img-responsive pull-right img-thumbnail">}}
+
+We still need to be able to maintain social distancing within the building so booking before coming along is essential to ensure that we can meet safely and within current government guidelines.
+
+We know that not everyone may feel able to return to in-person gatherings yet, and limited numbers may mean not everyone who wants to can attend every week, so services will continue to be broadcast on Zoom and by live-stream.
+
+[Book into a morning service here](https://tinyurl.com/longmeadowbooking/).
+
 ## Update, January 6th
 
 In-person Sunday afternoon services have now been put on hold.

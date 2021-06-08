@@ -21,9 +21,14 @@
                     <!-- *** LEFT COLUMN *** -->
 
                     <div class="col-md-9" id="blog-listing-medium">
+                        <div class="row">
+                            <p class="lead">More recent sermon recordings can be found on our <a href="https://video.longmeadow-church.org.uk">video page</a>.</p>
+                        </div>
 
                         {{ $paginator := .Paginate (where .Data.Pages "Type" "audio") }}
                         {{ range $paginator.Pages }}
+
+
                         <section class="post">
                             <div class="row">
                                 <div class="col-md-4">

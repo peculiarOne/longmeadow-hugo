@@ -46,7 +46,7 @@ paginate = 10
         <a href=\"https://longmeadow-church.org.uk/files/uploads/ExpenseClaimForm.pdf\">Expense Claim Form</a> | 
         <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Privacy Policy.pdf\">Privacy Policy</a>
         <p></p>
-        <a href=\"https://www.stewardship.org.uk/partners/20211629\" target=\"_blank\"><img src=\"img/stewardship-sunshine.webp\" width="90%"></a>
+        <a href=\"https://www.stewardship.org.uk/partners/20211629\" target=\"_blank\"><img src=\"/img/stewardship-sunshine.webp\" width="90%"></a>
         """
     copyright = ""
 

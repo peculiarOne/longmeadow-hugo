@@ -2,6 +2,30 @@
 title = "Coronavirus"
 +++
 
+## Update, July 20th
+
+We're delighted that with the removal of legal restrictions we'll be able to start singing together again during Sunday services.
+
+We recognise that currently infection rates remain high, not everyone will have had the opportunity to be fully vaccinated, and that not everyone will yet feel comfortable with large gatherings. So, we are taking some precautions to make sure Sunday worship is available and safe for everyone.
+
+> **Face Masks for singing**  
+> Face masks will not be essential when inside the building. However, the evidence suggests that transmission of the virus is higher during activities such as singing. We strongly recommend that everyone wears a face-mask when singing (obviously if you are exempt from wearing a mask you do not need to). 
+
+> **Hand Sanitiser still available**  
+> Hand sanitiser will still be available and, again, we encourage everyone to use this.
+
+> **No more pre-booking**  
+> You no longer need to book in advance – just turn up! But we still recommend that you use the NHS app QR code when you enter the building. 
+
+> **In-Person Focus**  
+> We would love to see you in-person at Longmeadow, and the in-person service will be the focus. Zoom will still be available and the livestream will still be broadcast so you can continue to catch-up online.  Please do join Zoom from home if you are feeling unwell or have been asked to self-isolate.
+
+> **After the service**  
+> We plan to continue to serve refreshments outside after the service and encourage people to chat outside rather than inside.
+
+> **Seating arrangements**  
+> We are at the start of the summer holidays, with many people away. Therefore, we are not expecting to be full. So, we will have fewer chairs out than pre-pandemic, and they will be more spaced apart. You are now welcome to sit with others, but please be mindful that some people may be nervous about sitting very close together.
+
 ## Update, April 2nd
 
 Starting Easter Sunday in-person morning services will be starting up again.

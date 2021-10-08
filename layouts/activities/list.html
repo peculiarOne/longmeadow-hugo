@@ -23,8 +23,15 @@
 	    <!-- *** LEFT COLUMN *** -->
 	    <div class="col-md-12">
 
-		    <p class="lead">Here's a brief introduction to the various regular activities that go on at or around Longmeadow. 
+		    <p >Here's a brief introduction to the various regular activities that go on at or around Longmeadow. 
 			If you'd like to know about any of these please <a href="../contact/">get in touch</a>.</p>
+
+			{{ $termcard_posts := (where .Site.Pages "Type" "termcard") }}
+			{{ if gt (len $termcard_posts) 0}}
+					{{ range first 1 $termcard_posts }}
+						{{ .Content }}
+					{{ end }}
+			{{ end }}
 			
 			{{ $youth_posts := (where .Site.Pages "Type" "youth") }}
 			{{ if gt (len $youth_posts) 0}}

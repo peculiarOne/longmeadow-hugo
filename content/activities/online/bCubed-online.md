@@ -1,6 +1,6 @@
 +++
 title = "B Cubed"
-draft = false
+draft = true
 type = "online"
 thumbnail = "img/activities/cap.png"
 +++

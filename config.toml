@@ -103,7 +103,7 @@ paginate = 10
     weight = 4
 
 [params.urgent]
-    enable = true   
+    enable = false   
     text = """<a href="/coronavirus">Despite Covid-19 there's still lots going on, click to see what</a>"""
 
 

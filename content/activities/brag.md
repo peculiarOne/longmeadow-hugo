@@ -1,6 +1,6 @@
 +++
 title = "BRAG"
-draft = true
+draft = false
 type = "youth"
 time = "6.15pm on Fridays"
 +++

@@ -1,4 +1,6 @@
 /public
 
+buildLocal.sh
+
 # vim temporary files
 *.swp

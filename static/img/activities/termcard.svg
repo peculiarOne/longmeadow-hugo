@@ -8,7 +8,7 @@
    height="100"
    viewBox="0 0 760 100"
    sodipodi:docname="termcard.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    inkscape:export-filename="termcard.png"
    inkscape:export-xdpi="90.027901"
    inkscape:export-ydpi="90.027901"
@@ -36,12 +36,12 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="1.5723684"
-     inkscape:cx="380.63599"
-     inkscape:cy="50.242678"
+     inkscape:cx="380.95398"
+     inkscape:cy="50.56067"
      inkscape:window-width="1920"
-     inkscape:window-height="1031"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-height="1056"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g8"
      inkscape:showpageshadow="2"
@@ -72,8 +72,8 @@
        transform="translate(31.740259,148.36372)"><tspan
          x="147.17188"
          y="-66.844503"
-         id="tspan285"><tspan
+         id="tspan284"><tspan
            style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-           id="tspan283">Aug - Dec 2022</tspan></tspan></text>
+           id="tspan282">Jan - Apr 2023</tspan></tspan></text>
   </g>
 </svg>

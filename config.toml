@@ -20,6 +20,7 @@ paginate = 10
     googleMapsApiKey = "someSecretKey"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    # style = "blue"
     style = "default"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -42,9 +43,10 @@ paginate = 10
         Longmeadow Church is a <a href=\"https://www.charitycommission.gov.uk/index.asp\">Registered Charity</a> 1188950<br>
         <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Church Constitution.pdf\">Church Constitution</a> | 
         <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Practices Booklet.pdf\">Church Practices</a> | 
+        <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Safeguarding Policy.pdf\">Safeguarding Policy</a> |
+        <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Privacy Policy.pdf\">Privacy Policy</a>
         <a href=\"https://longmeadow-church.org.uk/files/uploads/Gift_Aid_Declaration.pdf\">Gift Aid Declaration</a> | 
         <a href=\"https://longmeadow-church.org.uk/files/uploads/ExpenseClaimForm.pdf\">Expense Claim Form</a> | 
-        <a href=\"https://longmeadow-church.org.uk/files/uploads/LEC Privacy Policy.pdf\">Privacy Policy</a>
         <p></p>
         <a href=\"https://www.stewardship.org.uk/partners/20211629\" target=\"_blank\"><img src=\"/img/stewardship-sunshine.webp\" width="90%"></a>
         """

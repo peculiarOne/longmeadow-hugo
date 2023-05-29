@@ -74,7 +74,7 @@ paginate = 10
     latitude = "51.884253"
     longitude = "-0.171793"
     direction = "Longmeadow Evangelical Church, Oaks Cross, Stevenage"
-    mainSections = ["audio"]
+    mainSections = ["sermons"]
 
 [Permalinks]
     audio = "/blog/:year/:month/:day/:filename/"
@@ -85,13 +85,8 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Audio"
-    url  = "/audio/"
-    weight = 2
-
-[[menu.main]]
-    name = "Video"
-    url = "https://video.longmeadow-church.org.uk/"
+    name = "Sermons"
+    url = "/sermons/"
     weight = 2
 
 [[menu.main]]

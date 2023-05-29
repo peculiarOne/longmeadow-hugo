@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {{ partial "headers.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <!-- *** LEFT COLUMN *** -->
+
+                    <div class="col-md-10 col-md-offset-1" id="blog-listing-medium">
+
+                        <div>
+                            <p class="lead">Recordings of our recent morning and evening services. 
+                                Catch up with something you missed, watch again, or just see what a 
+                                Sunday morning meeting is like.</p>
+
+                            <p class="lead">Can't find what you're looking for? Our full list of
+                                available sermon / service video recordings can be found on our 
+                                <a href="https://www.youtube.com/@longmeadowevangelicalchurc2631/videos">Youtube Channel</a>,
+                                and an archive of older audio-only sermon recordings can be found 
+                                <a href="/audio">here</a>.
+                            </p>
+                        </div>
+
+                        {{ range (.Paginate ( first 50 .Pages.ByDate.Reverse )).Pages }}
+
+
+                        <section class="post">
+                            <div class="row">
+
+                                <div class="col-md-4">
+                                  <div class="image">
+                                      <a href="{{ .Permalink }}">
+                                          {{ if .Params.thumbnail }}
+                                          <img src="{{ .Site.BaseURL}}{{ .Params.thumbnail }}" class="img-responsive" alt="">
+                                          {{ else }}
+                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                                          {{ end }}
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                    <div class="clearfix">
+                                        <p class="author-category">
+                                          {{ if isset .Params "author" }}
+                                          By <a href="#">{{ .Params.author }}</a>
+                                          {{ end }}
+                                          {{ if isset .Params "categories" }}
+                                          {{ if gt (len .Params.categories) 0 }}
+                                          in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
+                                          {{ end }}
+                                          {{ end }}
+
+                                        </p>
+                                        <p class="date-comments">
+                                            <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
+                                        </p>
+                                    </div>
+                                    <p class="intro">{{ .Summary }}</p>
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">Continue reading</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        {{ end }}
+
+                        <ul class="pager">
+                            {{ if .Paginator.HasPrev }}
+                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; Newer</a></li>
+                            {{ else }}
+                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+                            {{ end }}
+
+                            {{ if .Paginator.HasNext }}
+                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">Older &rarr;</a></li>
+                            {{ else }}
+                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    <!-- /.col-md-9 -->
+
+                    <!-- *** LEFT COLUMN END *** -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

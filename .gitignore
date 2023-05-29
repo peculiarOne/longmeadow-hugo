@@ -1,5 +1,9 @@
 /public
 
+# sermon files ('cos we want to auto generate these)
+/content/sermons
+/static/img/sermons
+
 buildLocal.sh
 
 # vim temporary files

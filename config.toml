@@ -85,11 +85,6 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Audio"
-    url  = "/audio/"
-    weight = 2
-
-[[menu.main]]
     name = "Sermons"
     url = "/sermons/"
     weight = 2

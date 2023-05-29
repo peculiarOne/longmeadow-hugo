@@ -20,9 +20,22 @@
                 <div class="row">
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-10 col-md-offset-1" id="blog-listing-medium">
 
-                        {{ range (.Paginate ( first 50 .Pages.ByTitle )).Pages }}
+                        <div>
+                            <p class="lead">Recordings of our recent morning and evening services. 
+                                Catch up with something you missed, watch again, or just see what a 
+                                Sunday morning meeting is like.</p>
+
+                            <p class="lead">Can't find what you're looking for? Our full list of
+                                available sermon / service video recordings can be found on our 
+                                <a href="https://www.youtube.com/@longmeadowevangelicalchurc2631/videos">Youtube Channel</a>,
+                                and an archive of older audio-only sermon recordings can be found 
+                                <a href="/audio">here</a>.
+                            </p>
+                        </div>
+
+                        {{ range (.Paginate ( first 50 .Pages.ByDate.Reverse )).Pages }}
 
 
                         <section class="post">
@@ -82,22 +95,6 @@
                     <!-- /.col-md-9 -->
 
                     <!-- *** LEFT COLUMN END *** -->
-
-                    <!-- *** RIGHT COLUMN ***
-       _________________________________________________________ -->
-
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
 
                 </div>
                 <!-- /.row -->

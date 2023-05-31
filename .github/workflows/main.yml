@@ -1,0 +1,46 @@
+name: CI
+on: 
+  push:
+    branches:
+      - master
+
+jobs: 
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Install lftp
+        run: sudo apt install lftp
+
+      - name: Setup Known Hosts
+        run: ssh-keyscan -H home199125616.1and1-data.host >> ~/.ssh/known_hosts
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.110.0'
+          # extended: true 
+
+      - name: checkout python script
+        uses: actions/checkout@v3
+        with:
+          repository: peculiarOne/hugo-yt-posts
+          path: hugo-yt-posts
+          ref: main
+
+      - name: Generate YT posts
+        - uses: actions/checkout@v3
+        - uses: actions/setup-python@v4
+        with: 
+          python-version: '3.10'
+        run: python hugo-yt-posts/yt_post_generator.py sermons .
+
+      - name: Build
+        run: hugo -minify -b https://longmeadow-church.org.uk
+
+      - name: Deploy
+        run: lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -e 'mirror --reverse --verbose --parallel=2 --ignore-time public/ /;exit' sftp://home199125616.1and1-data.host

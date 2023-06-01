@@ -1,0 +1,72 @@
+name: CI
+on: 
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '45 19 * * 0'
+
+jobs: 
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Install lftp
+        run: |
+          sudo apt update
+          sudo apt install lftp
+
+      - name: checkout python script
+        uses: actions/checkout@v3
+        with:
+          repository: peculiarOne/hugo-yt-posts
+          path: hugo-yt-posts
+          ref: 'main'
+
+      - name: LS
+        run: ls -l
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.110.0'
+
+      - name: Setup Known Hosts
+        run: ssh-keyscan -H home199125616.1and1-data.host >> ~/.ssh/known_hosts
+
+      # - uses: actions/checkout@v3
+      - name: setup python
+        uses: actions/setup-python@v4
+        with: 
+          python-version: '3.10'
+          cache: 'pipenv'
+
+      - name: Install pipenv
+        run: |
+          python -m pip install --upgrade pipenv wheel
+
+      - name: python dependencies
+        run: |
+          cd hugo-yt-posts
+          pipenv install
+
+      - name: generate yt posts
+        env: 
+          API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+        run: |
+          pwd
+          cd hugo-yt-posts
+          pipenv run python ./yt_post_generator.py sermons ../
+
+      - name: Build
+        env:
+          HUGO_PARAMS_googleMapsApiKey: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: hugo -b https://longmeadow-church.org.uk
+
+      - name: Deploy
+        run: lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -e 'mirror --reverse --verbose --parallel=2 --ignore-time public/ /;exit' sftp://home199125616.1and1-data.host

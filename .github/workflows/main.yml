@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron: '45 19 * * 0'
 
 jobs: 
   deploy:
@@ -53,13 +55,18 @@ jobs:
           pipenv install
 
       - name: generate yt posts
+        env: 
+          API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
         run: |
           pwd
           cd hugo-yt-posts
           pipenv run python ./yt_post_generator.py sermons ../
 
       - name: Build
+        env:
+          HUGO_PARAMS_googleMapsApiKey: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: hugo -b https://longmeadow-church.org.uk
 
-      # - name: Deploy
-      #   run: lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -e 'mirror --reverse --verbose --parallel=2 --ignore-time public/ /;exit' sftp://home199125616.1and1-data.host
+      - name: Deploy
+        run: lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -e 'mirror --reverse --verbose --parallel=2 --ignore-time public/ /;exit' sftp://home199125616.1and1-data.host

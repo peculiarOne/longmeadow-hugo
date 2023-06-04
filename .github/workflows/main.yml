@@ -68,7 +68,7 @@ jobs:
       - name: Build
         env:
           HUGO_PARAMS_googleMapsApiKey: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-        run: hugo -b https://longmeadow-church.org.uk
+        run: hugo -b https://longmeadow-church.org.uk/
 
       - name: Deploy
         run: lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -e 'mirror --reverse --verbose --parallel=2 --ignore-time public/ /;exit' sftp://home199125616.1and1-data.host

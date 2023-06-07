@@ -24,8 +24,8 @@
                     <div class="box-image-text blog">
                         <div class="top">
                             <div class="image" style="overflow:hidden">
-                                {{ if isset .Params "banner" }}
-                                <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="" >
+                                {{ if isset .Params "thumbnail" }}
+                                <img src="{{ .Site.BaseURL}}{{ .Params.thumbnail }}" class="img-responsive" alt="" >
                                 {{ else }}
                                 <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
                                 {{ end }}

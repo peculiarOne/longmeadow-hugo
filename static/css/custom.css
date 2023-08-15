@@ -1,3 +1,14 @@
+/* :root {
+  --primary-accent: #34618d;
+  --navbar-border-top: #1a4e7f;
+  --button-border: #013a71;
+  --link-focus: #455999;
+  --form-shadow: rgba(1, 35, 68, 0.6);
+  --pagination-bg: rgb(214, 218, 237);
+  --link-hover-bg: #4d53aa;
+  --navbar-focus: #6397c9;
+} */
+
 .bar.background-image-fixed-2 {
 	  background: url('../img/fixed-background.jpg') center top no-repeat;
 	  background-attachment: fixed;

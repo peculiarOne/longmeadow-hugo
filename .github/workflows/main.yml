@@ -72,4 +72,4 @@ jobs:
         run: hugo -b https://longmeadow-church.org.uk/
 
       - name: Deploy
-        run: lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -e 'mirror --reverse --verbose --parallel=2 --ignore-time public/ /;exit' sftp://home199125616.1and1-data.host
+        run: lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -e 'mirror --reverse --verbose --parallel=4 public/ /;exit' sftp://home199125616.1and1-data.host

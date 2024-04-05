@@ -8,7 +8,7 @@
    height="100"
    viewBox="0 0 760 100"
    sodipodi:docname="termcard.svg"
-   inkscape:version="1.3.1 (91b66b0783, 2023-11-16, custom)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    inkscape:export-filename="termcard.png"
    inkscape:export-xdpi="90.027901"
    inkscape:export-ydpi="90.027901"
@@ -21,8 +21,8 @@
      id="defs6">
     <rect
        x="147.17097"
-       y="-89.146481"
-       width="363.14473"
+       y="-89.146484"
+       width="363.14474"
        height="36.510521"
        id="rect7429" />
   </defs>
@@ -37,11 +37,11 @@
      showgrid="false"
      inkscape:zoom="1.5723684"
      inkscape:cx="381.27197"
-     inkscape:cy="51.196653"
+     inkscape:cy="51.514645"
      inkscape:window-width="1920"
-     inkscape:window-height="1031"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-height="1056"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g8"
      inkscape:showpageshadow="2"
@@ -72,8 +72,8 @@
        transform="translate(23.740259,148.36372)"><tspan
          x="147.17188"
          y="-67.781926"
-         id="tspan2"><tspan
+         id="tspan4"><tspan
            style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-           id="tspan1">Jan - Mar 2024</tspan></tspan></text>
+           id="tspan3">Apr - Jun 2024</tspan></tspan></text>
   </g>
 </svg>

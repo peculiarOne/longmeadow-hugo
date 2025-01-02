@@ -8,7 +8,7 @@
    height="100"
    viewBox="0 0 760 100"
    sodipodi:docname="termcard.svg"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    inkscape:export-filename="termcard.png"
    inkscape:export-xdpi="90.027901"
    inkscape:export-ydpi="90.027901"
@@ -37,7 +37,7 @@
      showgrid="false"
      inkscape:zoom="1.5723684"
      inkscape:cx="381.58996"
-     inkscape:cy="51.514645"
+     inkscape:cy="51.832637"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
      inkscape:window-x="1920"
@@ -72,8 +72,8 @@
        transform="translate(23.740259,148.36372)"><tspan
          x="147.17188"
          y="-67.781926"
-         id="tspan2"><tspan
+         id="tspan4"><tspan
            style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-           id="tspan1">Oct - Dec 2024</tspan></tspan></text>
+           id="tspan3">Jan - Apr 2025</tspan></tspan></text>
   </g>
 </svg>

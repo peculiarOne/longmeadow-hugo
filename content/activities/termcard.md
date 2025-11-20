@@ -5,7 +5,7 @@ type = "termcard"
 {{<figure src="/img/activities/termcard.png" 
     class="img-thumbnail img-responsive"
     alt="Link to the full list of events for this term"
-    link="/img/activities/termcard-2025-03.pdf">}}
+    link="/img/activities/termcard-2025-09.pdf">}}
 
 <!--more-->
 
